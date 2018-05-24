@@ -13,4 +13,8 @@ public class Weapon implements IAttack{
     public String getName() {
         return this.name;
     }
+
+    public int getAttack(){
+        return this.attack;
+    }
 }
