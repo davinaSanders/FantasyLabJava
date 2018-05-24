@@ -9,4 +9,12 @@ public class HealingItem implements IHeal{
         this.healing = healing;
 
     }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int getHeal() {
+        return this.healing;
+    }
 }
