@@ -13,4 +13,19 @@ public class Enemy implements IObstacle{
         this.enemyType = enemyType;
     }
 
+    public String getName() {
+        return this.name;
+    }
+
+    public int getAttack() {
+        return this.attack;
+    }
+
+    public int getHealth() {
+        return this.health;
+    }
+
+    public EnemyType getType() {
+        return this.enemyType;
+    }
 }
