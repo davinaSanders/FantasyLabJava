@@ -14,4 +14,20 @@ public class Creature {
         this.creatureType = creatureType;
 
     }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int getAttack() {
+        return this.attack;
+    }
+
+    public int getHealth() {
+        return this.health;
+    }
+
+    public CreatureType getType() {
+        return this.creatureType;
+    }
 }

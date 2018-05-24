@@ -1,6 +1,6 @@
 package ToolSet;
 
-public class Weapon {
+public class Weapon implements IAttack{
     private String name;
     private int attack;
 

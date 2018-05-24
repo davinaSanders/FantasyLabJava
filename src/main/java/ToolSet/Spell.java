@@ -1,6 +1,6 @@
 package ToolSet;
 
-public class Spell {
+public class Spell implements IHeal, IAttack{
     private String name;
     private int damage;
 

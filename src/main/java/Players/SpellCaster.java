@@ -1,11 +1,19 @@
 package Players;
 
-public class SpellCaster extends Player implements Tools{
-    private Creature creature;
+import ToolSet.IAttack;
+import ToolSet.IHeal;
 
-    public SpellCaster(int health, int armourPoints, int wallet, String name, String race, Tools tools){
-        super(health, armourPoints, wallet, name, race, tools);
+
+public class SpellCaster extends Player implements IAttack, IHeal {
+    private Creature creature;
+    private IAttack spell;
+    private IHeal healingItem;
+
+    public SpellCaster(int health, int armourPoints,String name, String race, Creature creature,IAttack spell, IHeal healingItem){
+        super(health, armourPoints,  name, race);
         this.creature = creature;
+        this.spell = spell;
+        this.healingItem = healingItem;
 
     }
 }

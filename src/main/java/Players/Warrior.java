@@ -1,9 +1,15 @@
 package Players;
 
-public class Warrior extends Player implements Tools {
+import ToolSet.IAttack;
 
-    public Warrior(int health, int armourPoints, int wallet, String name, String race, Tools tools){
-        super(health, armourPoints, wallet, name, race, tools);
+public class Warrior extends Player implements IAttack {
+
+    private IAttack weapon;
+
+    public Warrior(int health, int armourPoints, String name, String race, IAttack weapon){
+        super(health, armourPoints,name, race);
+
+        this.weapon = weapon;
 
     }
 }

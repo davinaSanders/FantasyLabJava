@@ -1,6 +1,6 @@
 package ToolSet;
 
-public class HealingItem {
+public class HealingItem implements IHeal{
     private String name;
     private int healing;
 
