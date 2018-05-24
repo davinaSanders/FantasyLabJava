@@ -12,28 +12,6 @@ public class Healer extends Player implements IHeal {
 
     }
 
-    public String getName() {
-        return this.name;
-    }
-
-    public String getRace() {
-        return this.race;
-    }
-
-    public int getArmourPoints() {
-        return this.armourPoints;
-    }
-
-    public int getHealth() {
-        return this.health;
-    }
-
-
-    public int getWallet() {
-        return wallet;
-    }
-
-
     public IHeal getItem() {
         return this.healingItem;
     }

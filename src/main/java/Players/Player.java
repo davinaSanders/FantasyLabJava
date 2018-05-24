@@ -22,6 +22,27 @@ public class Player{
 
     }
 
+    public String getName() {
+        return this.name;
+    }
+
+    public String getRace() {
+        return this.race;
+    }
+
+    public int getArmourPoints() {
+        return this.armourPoints;
+    }
+
+    public int getHealth() {
+        return this.health;
+    }
+
+
+    public int getWallet() {
+        return wallet;
+    }
+
 
 
 }

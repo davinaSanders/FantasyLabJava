@@ -12,4 +12,8 @@ public class Warrior extends Player implements IAttack {
         this.weapon = weapon;
 
     }
+
+    public IAttack getWeapon() {
+        return this.weapon;
+    }
 }

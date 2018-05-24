@@ -9,4 +9,8 @@ public class Weapon implements IAttack{
         this.attack = attack;
 
     }
+
+    public String getName() {
+        return this.name;
+    }
 }
