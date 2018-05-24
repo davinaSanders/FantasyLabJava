@@ -3,7 +3,7 @@ package Players;
 
 
 
-public class Player{
+public abstract class Player{
     protected int health;
     protected int armourPoints;
     protected int wallet;
