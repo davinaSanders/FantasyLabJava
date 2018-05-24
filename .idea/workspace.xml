@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32b0773e-6db2-46ea-8bfc-b891416c3cda" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Enemy.java" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Enemy.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/EnemyRoom.java" afterPath="$PROJECT_DIR$/src/main/java/Rooms/EnemyRoom.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/MysteryRoom.java" afterPath="$PROJECT_DIR$/src/main/java/Rooms/MysteryRoom.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Treasure.java" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Treasure.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/TreasureRoom.java" afterPath="$PROJECT_DIR$/src/main/java/Rooms/TreasureRoom.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTests/EnemyRoomTest.java" afterPath="$PROJECT_DIR$/src/test/java/RoomTests/EnemyRoomTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTests/MysteryRoomTest.java" afterPath="$PROJECT_DIR$/src/test/java/RoomTests/MysteryRoomTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTests/TreasureRoomTest.java" afterPath="$PROJECT_DIR$/src/test/java/RoomTests/TreasureRoomTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTests/TreasureTest.java" afterPath="$PROJECT_DIR$/src/test/java/RoomTests/TreasureTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,11 +31,15 @@
       <file leaf-file-name="EnemyRoom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/EnemyRoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#108#109#0" expanded="true" />
                 <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,42 +63,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnemyType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/EnemyType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IObstacle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/IObstacle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/Room.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MysteryRoomTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/MysteryRoomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="250">
+              <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysteryRoom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/MysteryRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,9 +101,15 @@
       <file leaf-file-name="EnemyRoomTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/EnemyRoomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="92">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,9 +117,32 @@
       <file leaf-file-name="TreasureRoomTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/TreasureRoomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="339">
+              <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreasureRoom.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/TreasureRoom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,17 +150,25 @@
       <file leaf-file-name="TreasureTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/TreasureTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="240">
+              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnemyTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnemyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/EnemyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="242">
               <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,6 +182,20 @@
                 <element signature="e#621#622#0" expanded="true" />
                 <element signature="e#664#665#0" expanded="true" />
                 <element signature="e#716#717#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Treasure.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/Treasure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding>
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -485,12 +542,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Rooms/IObstacle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rooms/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rooms/EnemyType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Rooms/Treasure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Rooms/MysteryRoom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Rooms/EnemyRoom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Rooms/TreasureRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rooms/Enemy.java" />
         <option value="$PROJECT_DIR$/src/test/java/RoomTests/EnemyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoomTests/TreasureTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rooms/Treasure.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoomTests/EnemyRoomTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rooms/EnemyRoom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoomTests/MysteryRoomTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rooms/MysteryRoom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoomTests/TreasureRoomTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rooms/TreasureRoom.java" />
       </list>
     </option>
   </component>
@@ -610,7 +671,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnemyTest">
+  <component name="RunManager" selected="JUnit.MysteryRoomTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -657,15 +718,45 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WarriorTest.hasWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="MysteryRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="RoomTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="FantasyLab_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WarriorTest" />
-      <option name="METHOD_NAME" value="hasWeapon" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="RoomTests" />
+      <option name="MAIN_CLASS_NAME" value="RoomTests.MysteryRoomTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TreasureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="RoomTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FantasyLab_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="RoomTests" />
+      <option name="MAIN_CLASS_NAME" value="RoomTests.TreasureTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -684,31 +775,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="healingItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ToolSet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FantasyLab_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ToolSet" />
-      <option name="MAIN_CLASS_NAME" value="ToolSet.healingItemTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -813,19 +879,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.WarriorTest.hasWeapon" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.healingItemTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.spellTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.weaponTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EnemyTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.spellTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.weaponTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EnemyTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TreasureTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MysteryRoomTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EnemyTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.weaponTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.spellTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.healingItemTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.WarriorTest.hasWeapon" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MysteryRoomTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TreasureTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EnemyTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.weaponTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.spellTest" />
       </list>
     </recent_temporary>
   </component>
@@ -849,11 +915,11 @@
     <history-entry file="EnemyTest - 2018.05.24 at 14h 32m 51s.xml">
       <configuration name="EnemyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpellCasterTest - 2018.05.24 at 13h 35m 09s.xml">
-      <configuration name="SpellCasterTest" configurationId="JUnit" />
+    <history-entry file="MysteryRoomTest - 2018.05.24 at 14h 44m 48s.xml">
+      <configuration name="MysteryRoomTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WarriorTest - 2018.05.24 at 13h 40m 37s.xml">
-      <configuration name="WarriorTest" configurationId="JUnit" />
+    <history-entry file="TreasureTest - 2018.05.24 at 14h 36m 55s.xml">
+      <configuration name="TreasureTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WarriorTest_hasWeapon - 2018.05.24 at 13h 40m 51s.xml">
       <configuration name="WarriorTest.hasWeapon" configurationId="JUnit" />
@@ -890,7 +956,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1224,49 +1290,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/Treasure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/TreasureRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/MysteryRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/EnemyType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/EnemyRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#145#146#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1282,38 +1310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/MysteryRoomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/EnemyRoomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/TreasureRoomTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/TreasureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1336,7 +1332,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/EnemyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="242">
           <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1350,6 +1346,123 @@
             <element signature="e#621#622#0" expanded="true" />
             <element signature="e#664#665#0" expanded="true" />
             <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/TreasureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/Treasure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/EnemyRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/MysteryRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/EnemyRoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/TreasureRoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoomTests/MysteryRoomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/TreasureRoom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
           </folding>
         </state>
       </provider>

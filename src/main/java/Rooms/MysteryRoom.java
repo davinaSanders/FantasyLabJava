@@ -8,4 +8,17 @@ public class MysteryRoom extends Room {
         this.obstacle2 = obstacle2;
 
     }
+
+
+    public String getName() {
+        return this.name;
+    }
+
+    public IObstacle getEnemy() {
+        return this.obstacle;
+    }
+
+    public IObstacle getTreasure() {
+        return this.obstacle2;
+    }
 }

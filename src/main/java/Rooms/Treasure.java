@@ -9,4 +9,12 @@ public class Treasure implements IObstacle {
         this.value = value;
 
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getValue() {
+        return value;
+    }
 }

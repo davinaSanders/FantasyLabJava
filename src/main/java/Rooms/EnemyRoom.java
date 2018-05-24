@@ -6,4 +6,12 @@ public class EnemyRoom extends Room {
         super(name, obstacle);
     }
 
+
+    public String getName() {
+        return this.name;
+    }
+
+    public IObstacle getEnemy() {
+        return this.obstacle;
+    }
 }
