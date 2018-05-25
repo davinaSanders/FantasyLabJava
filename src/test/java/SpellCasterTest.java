@@ -21,7 +21,7 @@ public class SpellCasterTest {
         creature = new Creature("Davina", 40, 100, CreatureType.YOSHI);
         spell = new Spell("Fireball", 20);
         healingItem = new HealingItem("Potion", 10);
-        spellcaster = new SpellCaster(100, 30, "Ruri", "Elf", creature, spell, healingItem);
+        spellcaster = new SpellCaster(100, 30, "Ruri", "Elf", "Zsolt's vault", creature, spell, healingItem);
         
     }
 

@@ -6,8 +6,8 @@ public class Warrior extends Player implements IAttack {
 
     private IAttack weapon;
 
-    public Warrior(int health, int armourPoints, String name, String race, IAttack weapon){
-        super(health, armourPoints,name, race);
+    public Warrior(int health, int armourPoints, String name, String race, String room, IAttack weapon){
+        super(health, armourPoints,name, race, room);
 
         this.weapon = weapon;
 

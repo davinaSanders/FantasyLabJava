@@ -14,7 +14,7 @@ public class WarriorTest {
     @Before
     public void before(){
         weapon = new Weapon("Dagger", 7);
-        warrior = new Warrior(100, 80, "Daniel", "Wood Elf", weapon);
+        warrior = new Warrior(100, 80, "Daniel", "Wood Elf", "Tomb of John", weapon);
     }
 
 

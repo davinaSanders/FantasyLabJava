@@ -9,4 +9,9 @@ public abstract class Room {
         this.obstacle = obstacle;
 
     }
+
+
+    // another class with an ArrayList of rooms to iterate through by index and change the players
+    // room value once either a treasure's value is set to 0/an enemy's health is set to
+    // 0 or both for the previous room.
 }

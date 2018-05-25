@@ -13,7 +13,7 @@ public class HealerTest {
     @Before
     public void before(){
         healingItem = new HealingItem("Healing Herb", 40);
-        healer = new Healer(100,30, "Sarah", "Human", healingItem);
+        healer = new Healer(100,30, "Sarah", "Human", "Sandy's lair", healingItem);
     }
 
     @Test

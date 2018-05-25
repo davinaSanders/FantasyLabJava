@@ -14,7 +14,7 @@ public class MysteryRoomTest {
     @Before
     public void before(){
         treasure = new Treasure("Diamonds", 100);
-        enemy = new Enemy("Joe", 78, 100, EnemyType.MALICIOUS_YOSHI);
+        enemy = new Enemy("Finn", 78, 100, EnemyType.EVIL_GRIFFIN);
         mysteryRoom = new MysteryRoom("Tomb of John", enemy, treasure);
     }
 
